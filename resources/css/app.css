@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Добавьте свои цветовые переменные для светлой темы */
+:root {
+    --primary-bg-color: #ffffff; /* Фон */
+    --primary-text-color: #000000; /* Основной текст */
+    /* Другие переменные цветов */
+}
+
+/* Стили для светлой темы */
+.light-mode {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    /* Другие стили для светлой темы */
+}
